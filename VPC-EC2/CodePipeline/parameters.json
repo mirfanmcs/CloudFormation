@@ -1,0 +1,43 @@
+[
+  {
+    "ParameterKey": "PipelineName",
+    "ParameterValue": "myFirstPipeline"
+  },
+  {
+    "ParameterKey": "RepositoryName",
+    "ParameterValue": "transaction"
+  },
+  {
+
+    "ParameterKey": "BranchName",
+    "ParameterValue": "master"
+  },
+  {
+    "ParameterKey": "TemplateFileName",
+    "ParameterValue": "CF-transaction-service-deployment-ALB.yaml"
+  },
+  {
+    "ParameterKey": "TestStackName",
+    "ParameterValue": "Test-transaction-stack"
+  },
+  {
+    "ParameterKey": "TestStackConfig",
+    "ParameterValue": "test-codepipeline-configuration-ALB.json" 
+  },
+  {
+    "ParameterKey": "ProdStackName",
+    "ParameterValue": "Prod-transaction-stack"
+  },
+  {
+    "ParameterKey": "ProdStackConfig",
+    "ParameterValue": "prod-codepipeline-configuration-ALB.json"
+  },
+  {
+    "ParameterKey": "ChangeSetName",
+    "ParameterValue": "UpdatePreview-transaction-service"
+  },
+  {
+    "ParameterKey": "Email",
+    "ParameterValue": "youremail@example.com"
+  }
+]

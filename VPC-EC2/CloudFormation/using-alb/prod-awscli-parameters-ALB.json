@@ -1,0 +1,35 @@
+[
+  {
+    "ParameterKey": "CidrBlock",
+    "ParameterValue": "10.0.0.0/16"
+  },
+  {
+    "ParameterKey": "InstanceType",
+    "ParameterValue": "t2.micro"
+  },
+  {
+
+    "ParameterKey": "KeyName",
+    "ParameterValue": "linuxkey"
+  },
+  {
+    "ParameterKey": "PublicAvailabilityZone1",
+    "ParameterValue": "ap-southeast-2a"
+  },
+  {
+    "ParameterKey": "PublicAvailabilityZone2",
+    "ParameterValue": "ap-southeast-2c"
+  },
+  {
+    "ParameterKey": "PublicSubnet1CIDR",
+    "ParameterValue": "10.0.1.0/24" 
+  },
+  {
+    "ParameterKey": "PublicSubnet2CIDR",
+    "ParameterValue": "10.0.2.0/24"
+  },
+  {
+    "ParameterKey": "SSHLocation",
+    "ParameterValue": "0.0.0.0/0"
+  }
+]

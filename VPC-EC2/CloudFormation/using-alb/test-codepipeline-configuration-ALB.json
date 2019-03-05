@@ -1,0 +1,12 @@
+{
+  "Parameters" : {
+    "CidrBlock" : "192.168.0.0/16",
+    "InstanceType" : "t2.micro",
+    "KeyName" : "linuxkey",
+    "PublicAvailabilityZone1" : "ap-southeast-2a",    
+    "PublicAvailabilityZone2" : "ap-southeast-2b",
+    "PublicSubnet1CIDR" : "192.168.1.0/24",
+    "PublicSubnet2CIDR" : "192.168.2.0/24",
+    "SSHLocation" : "0.0.0.0/0"
+  }
+}
