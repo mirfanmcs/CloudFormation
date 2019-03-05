@@ -6,6 +6,11 @@ Internal setting of 1 minute in `cfn-hup.conf` tells deamon to detect meta data 
 
 Note: User Data is immutable, therefore cannot be used to deploy new version of application.  
 
+# Application artefacts
+Application will be installed from S3 bucket. 
+
+Create S3 bucket name `transaction-service-artefact` and upload transction servie jar file name `transaction-1.0.jar` (for v1.0) into this bucket. 
+
 
 # Create Stack 
 ## Using Application Load Balancer
